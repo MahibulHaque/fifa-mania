@@ -12,8 +12,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <h1 className="text-white text-6xl font-bold">
+          Welcome to <a href="https://nextjs.org" className='text-blue-500 hover:underline'>Next.js!</a>
         </h1>
 
         <p className={styles.description}>
